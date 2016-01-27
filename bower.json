@@ -1,0 +1,29 @@
+{
+  "name": "tasseo",
+  "main": "tasseo.js",
+  "version": "0.1.0",
+  "homepage": "https://github.com/andreagenso/tasseo",
+  "authors": [
+    "obfuscurity <jason@dixongroup.net>"
+  ],
+  "description": "Tasseo is a lightweight, easily configurable, near-realtime dashboard for time-series metrics.",
+  "keywords": [
+    "tasseo",
+    "lightweight",
+    "near-realtime",
+    "dashboard"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "crypto": "~3.46.1",
+    "rickshaw": "~1.5.1",
+    "d3": "~3.5.14"
+  }
+}
